@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-22T16:44:57+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: gimę kūdikiai (Klaipėdos m. sav.) ir prieš 9 mėn. į Klaipėdą atplaukę laivai (generalinių krovinių laivai)",
+ "body": "Gimę kūdikiai (Klaipėdos m. sav.) ir prieš 9 mėn. į Klaipėdą atplaukę laivai (generalinių krovinių laivai) kyla ir krenta kartu: r = 0,96 per 8 mėn. (2025-10 – 2026-05).\n\nDuomenys: „į Klaipėdą atplaukę laivai (generalinių krovinių laivai)“ (laivai) ir „gimę kūdikiai (Klaipėdos m. sav.)“ (kūdikiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|port.arrivals.general_cargo_ships|gimusieji_per_menesi#municipality=Klaipėdos m. sav.#births|9",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "port.arrivals.general_cargo_ships",
+  "series_b": "gimusieji_per_menesi#municipality=Klaipėdos m. sav.#births",
+  "grain": "month",
+  "lag": 9,
+  "r": 0.958,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.958,
+  "summary": "Gimę kūdikiai (Klaipėdos m. sav.) ir prieš 9 mėn. į Klaipėdą atplaukę laivai (generalinių krovinių laivai) kyla ir krenta kartu: r = 0,96 per 8 mėn. (2025-10 – 2026-05).",
+  "hypothesis": "look-alike:gimusieji_per_menesi|klaipedos_uosto_operacijos",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Klaipėdos uosto laivų operacijos",
+    "url": "https://get.data.gov.lt/datasets/gov/kvjud/kroviniai/Operacija"
+   },
+   {
+    "title": "Gimusieji per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R842"
+   }
+  ]
+ }
+}
