@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-22T17:14:58+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: laivų operacijos Klaipėdos uoste (Upė-jūra keleivinis) ir santuokos",
+ "body": "Laivų operacijos Klaipėdos uoste (Upė-jūra keleivinis) ir santuokos kyla ir krenta kartu: r = 0,93 per 16 mėn. (2025-02 – 2026-05).\n\nDuomenys: „laivų operacijos Klaipėdos uoste (Upė-jūra keleivinis)“ (operacijos) ir „santuokos“ (santuokos).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|klaipedos_uosto_operacijos#ship type=Upė-jūra keleivinis#count|santuokos_per_menesi#group=#value|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "klaipedos_uosto_operacijos#ship type=Upė-jūra keleivinis#count",
+  "series_b": "santuokos_per_menesi#group=#value",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.935,
+  "n": 16,
+  "p_value": 1.0,
+  "score": 0.935,
+  "summary": "Laivų operacijos Klaipėdos uoste (Upė-jūra keleivinis) ir santuokos kyla ir krenta kartu: r = 0,93 per 16 mėn. (2025-02 – 2026-05).",
+  "hypothesis": "look-alike:klaipedos_uosto_operacijos|santuokos_per_menesi",
+  "story": "",
+  "start": "2025-02-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Klaipėdos uosto laivų operacijos",
+    "url": "https://get.data.gov.lt/datasets/gov/kvjud/kroviniai/Operacija"
+   },
+   {
+    "title": "Santuokos per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R845"
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-22T17:09:06+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: vilniečių pranešimai (grafičiai) ir gimę kūdikiai",
+ "body": "Vilniečių pranešimai (grafičiai) ir gimę kūdikiai kyla ir krenta kartu: r = 0,91 per 8 mėn. (2025-11 – 2026-06).\n\nDuomenys: „vilniečių pranešimai (grafičiai)“ (pranešimai) ir „gimę kūdikiai“ (kūdikiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|vilnius.problems.graffiti|births|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "vilnius.problems.graffiti",
+  "series_b": "births",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.915,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.915,
+  "summary": "Vilniečių pranešimai (grafičiai) ir gimę kūdikiai kyla ir krenta kartu: r = 0,91 per 8 mėn. (2025-11 – 2026-06).",
+  "hypothesis": "look-alike:gimusieji_per_menesi|vilniaus_problemos",
+  "story": "",
+  "start": "2025-11-01",
+  "end": "2026-06-01",
+  "sources": [
+   {
+    "title": "Vilniečių pranešimai apie problemas",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/registruotos_problemos/Problema"
+   },
+   {
+    "title": "Gimusieji per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R842"
+   }
+  ]
+ }
+}
