@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:06:23+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: į Klaipėdą atplaukę laivai (keleiviniai keltai) ir gimę kūdikiai (Šilutės r. sav.)",
+ "body": "Į Klaipėdą atplaukę laivai (keleiviniai keltai) ir gimę kūdikiai (Šilutės r. sav.) kyla ir krenta kartu: r = 0,97 per 8 mėn. (2025-10 – 2026-05).\n\nDuomenys: „į Klaipėdą atplaukę laivai (keleiviniai keltai)“ (laivai) ir „gimę kūdikiai (Šilutės r. sav.)“ (kūdikiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|port.arrivals.passenger_ro_ro_ferries|gimusieji_per_menesi#municipality=Šilutės r. sav.#births|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "port.arrivals.passenger_ro_ro_ferries",
+  "series_b": "gimusieji_per_menesi#municipality=Šilutės r. sav.#births",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.966,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.966,
+  "summary": "Į Klaipėdą atplaukę laivai (keleiviniai keltai) ir gimę kūdikiai (Šilutės r. sav.) kyla ir krenta kartu: r = 0,97 per 8 mėn. (2025-10 – 2026-05).",
+  "hypothesis": "look-alike:gimusieji_per_menesi|klaipedos_uosto_operacijos",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Klaipėdos uosto laivų operacijos",
+    "url": "https://get.data.gov.lt/datasets/gov/kvjud/kroviniai/Operacija"
+   },
+   {
+    "title": "Gimusieji per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R842"
+   }
+  ]
+ }
+}
