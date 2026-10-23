@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:55:26+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: išduoti verslo liudijimai (Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas) ir imigrantai (Vyrai ir moterys / 65 ir vyresni)",
+ "body": "Išduoti verslo liudijimai (Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas) ir imigrantai (Vyrai ir moterys / 65 ir vyresni) kyla ir krenta kartu: r = 0,92 per 8 mėn. (2025-12 – 2026-07).\n\nDuomenys: „išduoti verslo liudijimai (Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas)“ (liudijimai) ir „imigrantai (Vyrai ir moterys / 65 ir vyresni)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|verslo_liudijimai#activity=Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas#count|lsd.imigrantai_per_menesi.vyrai_ir_moterys_65_ir_vyresni|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "verslo_liudijimai#activity=Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas#count",
+  "series_b": "lsd.imigrantai_per_menesi.vyrai_ir_moterys_65_ir_vyresni",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.923,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.923,
+  "summary": "Išduoti verslo liudijimai (Metalo dirbinių gamyba, įrankių, spynų ir vyrių gamyba, montavimas) ir imigrantai (Vyrai ir moterys / 65 ir vyresni) kyla ir krenta kartu: r = 0,92 per 8 mėn. (2025-12 – 2026-07).",
+  "hypothesis": "look-alike:imigrantai_per_menesi|verslo_liudijimai",
+  "story": "",
+  "start": "2025-12-01",
+  "end": "2026-07-01",
+  "sources": [
+   {
+    "title": "Išduoti verslo liudijimai (VMI)",
+    "url": "https://get.data.gov.lt/datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas"
+   },
+   {
+    "title": "Imigrantai per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R846"
+   }
+  ]
+ }
+}
