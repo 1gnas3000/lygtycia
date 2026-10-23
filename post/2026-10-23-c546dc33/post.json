@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:34:10+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: elektromobilių pažeidimai Vilniuje (sankryžoje ar per arti jos) ir į Pabėgėlių priėmimo centrą atvykę žmonės (Ukraina)",
+ "body": "Elektromobilių pažeidimai Vilniuje (sankryžoje ar per arti jos) ir į Pabėgėlių priėmimo centrą atvykę žmonės (Ukraina) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2026-01 – 2026-08).\n\nDuomenys: „elektromobilių pažeidimai Vilniuje (sankryžoje ar per arti jos)“ (pažeidimai) ir „į Pabėgėlių priėmimo centrą atvykę žmonės (Ukraina)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|vilniaus_pazeidimai#offence=sankryžoje ar per arti jos#electric|pabegeliu_atvykimai#citizenship=Ukraina#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "vilniaus_pazeidimai#offence=sankryžoje ar per arti jos#electric",
+  "series_b": "pabegeliu_atvykimai#citizenship=Ukraina#count",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.93,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.93,
+  "summary": "Elektromobilių pažeidimai Vilniuje (sankryžoje ar per arti jos) ir į Pabėgėlių priėmimo centrą atvykę žmonės (Ukraina) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2026-01 – 2026-08).",
+  "hypothesis": "look-alike:pabegeliu_atvykimai|vilniaus_pazeidimai",
+  "story": "",
+  "start": "2026-01-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Kelių eismo ir stovėjimo pažeidimai Vilniuje",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/nusizengimai/Pazeidimas"
+   },
+   {
+    "title": "Į Pabėgėlių priėmimo centrą atvykę asmenys",
+    "url": "https://get.data.gov.lt/datasets/gov/rppc/atvykstantys_pabegeliai/AtvykstantysPabegeliai"
+   }
+  ]
+ }
+}
