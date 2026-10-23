@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:35:00+00:00",
+ "title": "Pastaraisiais metais lyg tyčia sutapo: elektromobilių dalis tarp naujų automobilių ir kainų indeksas (Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai)",
+ "body": "Elektromobilių dalis tarp naujų automobilių ir kainų indeksas (Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai) kyla ir krenta kartu: r = 0,96 per 8 m. (2018 – 2025).\n\nDuomenys: „elektromobilių dalis tarp naujų automobilių“ (%) ir „kainų indeksas (Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai)“ (2015=100).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|vehicles.ev_share|kainu_indeksai#item=Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai#index|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "vehicles.ev_share",
+  "series_b": "kainu_indeksai#item=Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai#index",
+  "grain": "year",
+  "lag": 0,
+  "r": 0.961,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.961,
+  "summary": "Elektromobilių dalis tarp naujų automobilių ir kainų indeksas (Televizijos ir radijo licenciniai mokesčiai, abonementiniai mokesčiai) kyla ir krenta kartu: r = 0,96 per 8 m. (2018 – 2025).",
+  "hypothesis": "look-alike:kainu_indeksai|naujos_transporto_priemones",
+  "story": "",
+  "start": "2018-01-01",
+  "end": "2025-01-01",
+  "sources": [
+   {
+    "title": "Įregistruotos transporto priemonės (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S5R058"
+   },
+   {
+    "title": "Vartotojų kainų indeksai",
+    "url": "https://get.data.gov.lt/datasets/gov/lsd/statistika/svki/S7R246M2020217"
+   }
+  ]
+ }
+}
