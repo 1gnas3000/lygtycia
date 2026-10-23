@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:27:46+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: orlaivių skrydžiai oro uostuose (Pakilo / Nereguliarūs skrydžiai / Vietinis susisiekimas) ir imigrantai (Moterys / 5–9)",
+ "body": "Orlaivių skrydžiai oro uostuose (Pakilo / Nereguliarūs skrydžiai / Vietinis susisiekimas) ir imigrantai (Moterys / 5–9) kyla ir krenta kartu: r = 0,91 per 8 mėn. (2026-02 – 2026-09).\n\nDuomenys: „orlaivių skrydžiai oro uostuose (Pakilo / Nereguliarūs skrydžiai / Vietinis susisiekimas)“ (skrydžiai) ir „imigrantai (Moterys / 5–9)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|lsd.oro_uostu_skrydziai.pakilo_nereguliarūs_skrydžiai_vietinis_susisiekimas|lsd.imigrantai_per_menesi.moterys_5_9|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "lsd.oro_uostu_skrydziai.pakilo_nereguliarūs_skrydžiai_vietinis_susisiekimas",
+  "series_b": "lsd.imigrantai_per_menesi.moterys_5_9",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.908,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.908,
+  "summary": "Orlaivių skrydžiai oro uostuose (Pakilo / Nereguliarūs skrydžiai / Vietinis susisiekimas) ir imigrantai (Moterys / 5–9) kyla ir krenta kartu: r = 0,91 per 8 mėn. (2026-02 – 2026-09).",
+  "hypothesis": "look-alike:imigrantai_per_menesi|oro_uostu_skrydziai",
+  "story": "",
+  "start": "2026-02-01",
+  "end": "2026-09-01",
+  "sources": [
+   {
+    "title": "Orlaivių skrydžiai oro uostuose (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S5R055"
+   },
+   {
+    "title": "Imigrantai per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R846"
+   }
+  ]
+ }
+}
