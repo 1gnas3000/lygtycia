@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:14:32+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: maitinami Vilniaus darželiuose (Darbuotojų pietūs) ir keleivių kelionės Marijampolės autobusais",
+ "body": "Maitinami Vilniaus darželiuose (Darbuotojų pietūs) ir keleivių kelionės Marijampolės autobusais kyla ir krenta kartu: r = 0,94 per 16 sav. (2026-05-18 – 2026-08-31).\n\nDuomenys: „maitinami Vilniaus darželiuose (Darbuotojų pietūs)“ (žmonės) ir „keleivių kelionės Marijampolės autobusais“ (kelionės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|darzeliu_valgiai#category=Darbuotojų pietūs#people|gov.marijampoles_keleiviai|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "darzeliu_valgiai#category=Darbuotojų pietūs#people",
+  "series_b": "gov.marijampoles_keleiviai",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.939,
+  "n": 16,
+  "p_value": 1.0,
+  "score": 0.939,
+  "summary": "Maitinami Vilniaus darželiuose (Darbuotojų pietūs) ir keleivių kelionės Marijampolės autobusais kyla ir krenta kartu: r = 0,94 per 16 sav. (2026-05-18 – 2026-08-31).",
+  "hypothesis": "look-alike:darzeliu_valgiai|marijampoles_keleiviai",
+  "story": "",
+  "start": "2026-05-18",
+  "end": "2026-08-31",
+  "sources": [
+   {
+    "title": "Maitinami asmenys Vilniaus darželiuose",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/maitinimas/Valgis"
+   },
+   {
+    "title": "Marijampolės autobusų keleivių srautas",
+    "url": "https://get.data.gov.lt/datasets/gov/map/keleiviu_srautas/KeleiviuSrautas"
+   }
+  ]
+ }
+}
