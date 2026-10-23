@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T16:54:56+00:00",
+ "title": "Šį mėnesį lyg tyčia sutapo: laboratoriniai tyrimai Mažeikių ligoninėje (Aktyvinto dalinio tromboplastino laikas (ADTL)) ir augalų ir vaisių patikros (Tręšiamųjų produktų priežiūra)",
+ "body": "Laboratoriniai tyrimai Mažeikių ligoninėje (Aktyvinto dalinio tromboplastino laikas (ADTL)) ir augalų ir vaisių patikros (Tręšiamųjų produktų priežiūra) kyla ir krenta kartu: r = 0,91 per 7 d. (2026-10-08 – 2026-10-14).\n\nDuomenys: „laboratoriniai tyrimai Mažeikių ligoninėje (Aktyvinto dalinio tromboplastino laikas (ADTL))“ (tyrimai) ir „augalų ir vaisių patikros (Tręšiamųjų produktų priežiūra)“ (patikros).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|mazeikiu_lab_tyrimai#analyte=Aktyvinto dalinio tromboplastino laikas (ADTL)#count|fitosanitarijos_patikros#area=Tręšiamųjų produktų priežiūra#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "mazeikiu_lab_tyrimai#analyte=Aktyvinto dalinio tromboplastino laikas (ADTL)#count",
+  "series_b": "fitosanitarijos_patikros#area=Tręšiamųjų produktų priežiūra#count",
+  "grain": "day",
+  "lag": 0,
+  "r": 0.909,
+  "n": 7,
+  "p_value": 1.0,
+  "score": 0.909,
+  "summary": "Laboratoriniai tyrimai Mažeikių ligoninėje (Aktyvinto dalinio tromboplastino laikas (ADTL)) ir augalų ir vaisių patikros (Tręšiamųjų produktų priežiūra) kyla ir krenta kartu: r = 0,91 per 7 d. (2026-10-08 – 2026-10-14).",
+  "hypothesis": "look-alike:fitosanitarijos_patikros|mazeikiu_lab_tyrimai",
+  "story": "",
+  "start": "2026-10-08",
+  "end": "2026-10-14",
+  "sources": [
+   {
+    "title": "Laboratoriniai tyrimai (Mažeikių ligoninė)",
+    "url": "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/RegionineMazeikiuLigonine"
+   },
+   {
+    "title": "Fitosanitarijos ir prekybos standartų patikros (VAT)",
+    "url": "https://get.data.gov.lt/datasets/gov/vat/fitosanitarijos_kontrole/Tikrinimas"
+   }
+  ]
+ }
+}
