@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:10:44+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: prašymai neįgaliojo automobilio kortelei (Plungė) ir patiekalų porcijos Telšių ligoninėje (Rūgštynių sriuba)",
+ "body": "Prašymai neįgaliojo automobilio kortelei (Plungė) ir patiekalų porcijos Telšių ligoninėje (Rūgštynių sriuba) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).\n\nDuomenys: „prašymai neįgaliojo automobilio kortelei (Plungė)“ (prašymai) ir „patiekalų porcijos Telšių ligoninėje (Rūgštynių sriuba)“ (porcijos).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|neigaliuju_korteles#city=Plungė#count|telsiu_ligonines_maitinimas#dish=Rūgštynių sriuba#portions|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "neigaliuju_korteles#city=Plungė#count",
+  "series_b": "telsiu_ligonines_maitinimas#dish=Rūgštynių sriuba#portions",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.915,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.915,
+  "summary": "Prašymai neįgaliojo automobilio kortelei (Plungė) ir patiekalų porcijos Telšių ligoninėje (Rūgštynių sriuba) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).",
+  "hypothesis": "look-alike:neigaliuju_korteles|telsiu_ligonines_maitinimas",
+  "story": "",
+  "start": "2025-09-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Neįgaliojo automobilio kortelių prašymai (NDNT)",
+    "url": "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
+   },
+   {
+    "title": "Patiekalų užsakymai (Regioninė Telšių ligoninė)",
+    "url": "https://get.data.gov.lt/datasets/gov/rtl/maitinimo_paraiskos/Maitinimas"
+   }
+  ]
+ }
+}
