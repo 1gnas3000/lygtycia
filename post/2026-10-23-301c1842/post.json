@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:51:03+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: vartotojų pasitikėjimo rodiklis (Miestas ir kaimas) ir išlaidos vaistinių prekėms (Zarasų r. sav. / Asmens higienos priemonės)",
+ "body": "Vartotojų pasitikėjimo rodiklis (Miestas ir kaimas) ir išlaidos vaistinių prekėms (Zarasų r. sav. / Asmens higienos priemonės) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2025-11 – 2026-06).\n\nDuomenys: „vartotojų pasitikėjimo rodiklis (Miestas ir kaimas)“ (balansas) ir „išlaidos vaistinių prekėms (Zarasų r. sav. / Asmens higienos priemonės)“ (tūkst. EUR).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|lsd.vartotoju_pasitikejimas.miestas_ir_kaimas|lsd.islaidos_vaistinese.zarasų_r_sav_asmens_higienos_priemonės|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "lsd.vartotoju_pasitikejimas.miestas_ir_kaimas",
+  "series_b": "lsd.islaidos_vaistinese.zarasų_r_sav_asmens_higienos_priemonės",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.932,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.932,
+  "summary": "Vartotojų pasitikėjimo rodiklis (Miestas ir kaimas) ir išlaidos vaistinių prekėms (Zarasų r. sav. / Asmens higienos priemonės) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2025-11 – 2026-06).",
+  "hypothesis": "look-alike:islaidos_vaistinese|vartotoju_pasitikejimas",
+  "story": "",
+  "start": "2025-11-01",
+  "end": "2026-06-01",
+  "sources": [
+   {
+    "title": "Vartotojų pasitikėjimo rodiklis (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R0180"
+   },
+   {
+    "title": "Išlaidos vaistinių prekėms (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R0566"
+   }
+  ]
+ }
+}
