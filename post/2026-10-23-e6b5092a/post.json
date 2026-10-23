@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:53:17+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: Seimo narių balsai „už“ (Dainius Gaižauskas) ir įregistruotos transporto priemonės (Elektra, Mopedai)",
+ "body": "Seimo narių balsai „už“ (Dainius Gaižauskas) ir įregistruotos transporto priemonės (Elektra, Mopedai) kyla ir krenta kartu: r = 0,91 per 10 mėn. (2025-11 – 2026-08).\n\nDuomenys: „Seimo narių balsai „už“ (Dainius Gaižauskas)“ (balsai) ir „įregistruotos transporto priemonės (Elektra, Mopedai)“ (vnt.).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|seimo_balsavimai#member=Dainius Gaižauskas#for|naujos_transporto_priemones#group=Elektra, Mopedai#value|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "seimo_balsavimai#member=Dainius Gaižauskas#for",
+  "series_b": "naujos_transporto_priemones#group=Elektra, Mopedai#value",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.907,
+  "n": 10,
+  "p_value": 1.0,
+  "score": 0.907,
+  "summary": "Seimo narių balsai „už“ (Dainius Gaižauskas) ir įregistruotos transporto priemonės (Elektra, Mopedai) kyla ir krenta kartu: r = 0,91 per 10 mėn. (2025-11 – 2026-08).",
+  "hypothesis": "look-alike:naujos_transporto_priemones|seimo_balsavimai",
+  "story": "",
+  "start": "2025-11-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Seimo narių balsavimai",
+    "url": "https://get.data.gov.lt/datasets/gov/lrsk/balsavimai/IndividualusBalsavimai"
+   },
+   {
+    "title": "Įregistruotos transporto priemonės (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S5R058"
+   }
+  ]
+ }
+}
