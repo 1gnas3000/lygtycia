@@ -1,7 +1,7 @@
 {
  "created": "2026-10-23T14:20:10+00:00",
- "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: eismo ir stovėjimo pažeidimai Vilniuje (2025 nesumokėta 19.1) ir užsiregistravę neleisti sau lošti (amžius 18–24)",
- "body": "Eismo ir stovėjimo pažeidimai Vilniuje (2025 nesumokėta 19.1) ir užsiregistravę neleisti sau lošti (amžius 18–24) kyla ir krenta kartu: r = 0,95 per 8 sav. (2026-07-13 – 2026-08-31).\n\nDuomenys: „eismo ir stovėjimo pažeidimai Vilniuje (2025 nesumokėta 19.1)“ (pažeidimai) ir „užsiregistravę neleisti sau lošti (amžius 18–24)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą) ir užsiregistravę neleisti sau lošti (amžius 18–24)",
+ "body": "Eismo ir stovėjimo pažeidimai Vilniuje (2025 nesumokėta 19.1) ir užsiregistravę neleisti sau lošti (amžius 18–24) kyla ir krenta kartu: r = 0,95 per 8 sav. (2026-07-13 – 2026-08-31).\n\nDuomenys: „eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą)“ (pažeidimai) ir „užsiregistravę neleisti sau lošti (amžius 18–24)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
  "finding_key": "spurious|vilniaus_pazeidimai#offence=2025 NESUMOKĖTA 19.1#count|losimu_apribojimai#age=18–24#banned|0",
  "finding": {
   "strategy": "spurious",
