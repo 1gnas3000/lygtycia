@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T16:45:40+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: Vilniaus darželiuose suvalgyta (obuoliai) ir išduoti kraujo komponentai (kraujo grupė A-)",
+ "body": "Vilniaus darželiuose suvalgyta (obuoliai) ir išduoti kraujo komponentai (kraujo grupė A-) kyla ir krenta kartu: r = 0,92 per 12 sav. (2026-06-15 – 2026-08-31).\n\nDuomenys: „Vilniaus darželiuose suvalgyta (obuoliai)“ (kg) ir „išduoti kraujo komponentai (kraujo grupė A-)“ (vienetai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|darzeliu_produktai#product=obuoliai#kg|kraujo_komponentai#group=A-#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "darzeliu_produktai#product=obuoliai#kg",
+  "series_b": "kraujo_komponentai#group=A-#count",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.923,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.923,
+  "summary": "Vilniaus darželiuose suvalgyta (obuoliai) ir išduoti kraujo komponentai (kraujo grupė A-) kyla ir krenta kartu: r = 0,92 per 12 sav. (2026-06-15 – 2026-08-31).",
+  "hypothesis": "look-alike:darzeliu_produktai|kraujo_komponentai",
+  "story": "",
+  "start": "2026-06-15",
+  "end": "2026-08-31",
+  "sources": [
+   {
+    "title": "Vilniaus darželiuose suvartoti produktai",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/maitinimas/Produktas"
+   },
+   {
+    "title": "Ligoninėms išduoti kraujo komponentai (Kraujo centras)",
+    "url": "https://get.data.gov.lt/datasets/gov/rsl/labdatalims/Uzsakymas"
+   }
+  ]
+ }
+}
