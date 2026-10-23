@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:39:53+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: vaistinėms parduotos vaistų pakuotės (Valerijonų, Valerianae officinalis šaknų tinktūra, 1:5) ir supirkta pieno (Natūralaus riebumo)",
+ "body": "Vaistinėms parduotos vaistų pakuotės (Valerijonų, Valerianae officinalis šaknų tinktūra, 1:5) ir supirkta pieno (Natūralaus riebumo) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2025-10 – 2026-05).\n\nDuomenys: „vaistinėms parduotos vaistų pakuotės (Valerijonų, Valerianae officinalis šaknų tinktūra, 1:5)“ (pakuotės) ir „supirkta pieno (Natūralaus riebumo)“ (tūkst. t).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|vaistu_pardavimai#drug=Valerijonų (Valerianae officinalis) šaknų tinktūra (1:5)#packages|lsd.supirktas_pienas.natūralaus_riebumo|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "vaistu_pardavimai#drug=Valerijonų (Valerianae officinalis) šaknų tinktūra (1:5)#packages",
+  "series_b": "lsd.supirktas_pienas.natūralaus_riebumo",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.925,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.925,
+  "summary": "Vaistinėms parduotos vaistų pakuotės (Valerijonų, Valerianae officinalis šaknų tinktūra, 1:5) ir supirkta pieno (Natūralaus riebumo) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2025-10 – 2026-05).",
+  "hypothesis": "look-alike:supirktas_pienas|vaistu_pardavimai",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Vaistų pakuočių pardavimai (VVKT)",
+    "url": "https://get.data.gov.lt/datasets/gov/vvkt/pakuociu_pardavimai/ParduotaPakuote"
+   },
+   {
+    "title": "Supirktas pienas (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S9R144"
+   }
+  ]
+ }
+}
