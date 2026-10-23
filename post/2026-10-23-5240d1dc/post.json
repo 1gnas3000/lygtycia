@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:16:45+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: patiekalų porcijos Telšių ligoninėje (Grikių košė su morkomis) ir prašymai neįgaliojo automobilio kortelei (Plungė)",
+ "body": "Patiekalų porcijos Telšių ligoninėje (Grikių košė su morkomis) ir prašymai neįgaliojo automobilio kortelei (Plungė) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2026-01 – 2026-08).\n\nDuomenys: „patiekalų porcijos Telšių ligoninėje (Grikių košė su morkomis)“ (porcijos) ir „prašymai neįgaliojo automobilio kortelei (Plungė)“ (prašymai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|telsiu_ligonines_maitinimas#dish=Grikių košė su morkomis#portions|neigaliuju_korteles#city=Plungė#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "telsiu_ligonines_maitinimas#dish=Grikių košė su morkomis#portions",
+  "series_b": "neigaliuju_korteles#city=Plungė#count",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.931,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.931,
+  "summary": "Patiekalų porcijos Telšių ligoninėje (Grikių košė su morkomis) ir prašymai neįgaliojo automobilio kortelei (Plungė) kyla ir krenta kartu: r = 0,93 per 8 mėn. (2026-01 – 2026-08).",
+  "hypothesis": "look-alike:neigaliuju_korteles|telsiu_ligonines_maitinimas",
+  "story": "",
+  "start": "2026-01-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Patiekalų užsakymai (Regioninė Telšių ligoninė)",
+    "url": "https://get.data.gov.lt/datasets/gov/rtl/maitinimo_paraiskos/Maitinimas"
+   },
+   {
+    "title": "Neįgaliojo automobilio kortelių prašymai (NDNT)",
+    "url": "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
+   }
+  ]
+ }
+}
