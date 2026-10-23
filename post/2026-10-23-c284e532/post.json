@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T13:53:40+00:00",
+ "title": "2026 m. lyg tyčia sutapo: naujos laisvos darbo vietos (virėjas) ir Vikipedijos straipsnio peržiūros (Paprastoji žemuogė)",
+ "body": "Naujos laisvos darbo vietos (virėjas) ir Vikipedijos straipsnio peržiūros (Paprastoji žemuogė) kyla ir krenta kartu: r = 0,93 per 10 sav. (2026-06-29 – 2026-08-31).\n\nDuomenys: „naujos laisvos darbo vietos (virėjas)“ (darbo vietos) ir „Vikipedijos straipsnio peržiūros (Paprastoji žemuogė)“ (peržiūros).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|laisvos_darbo_vietos#job=virėjas#count|wiki.views.paprastoji_žemuogė|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "laisvos_darbo_vietos#job=virėjas#count",
+  "series_b": "wiki.views.paprastoji_žemuogė",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.929,
+  "n": 10,
+  "p_value": 1.0,
+  "score": 0.929,
+  "summary": "Naujos laisvos darbo vietos (virėjas) ir Vikipedijos straipsnio peržiūros (Paprastoji žemuogė) kyla ir krenta kartu: r = 0,93 per 10 sav. (2026-06-29 – 2026-08-31).",
+  "hypothesis": "look-alike:laisvos_darbo_vietos|wikipedia_perziuros",
+  "story": "",
+  "start": "2026-06-29",
+  "end": "2026-08-31",
+  "sources": [
+   {
+    "title": "Laisvos darbo vietos (Užimtumo tarnyba)",
+    "url": "https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta"
+   },
+   {
+    "title": "Lietuviškos Vikipedijos straipsnių peržiūros (Wikimedia)",
+    "url": "https://pageviews.wmcloud.org/?project=lt.wikipedia.org"
+   }
+  ]
+ }
+}
