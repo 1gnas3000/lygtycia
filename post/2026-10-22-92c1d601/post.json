@@ -1,6 +1,6 @@
 {
  "created": "2026-10-22T17:09:11+00:00",
- "title": "Šią savaitę lyg tyčia sutapo: didžiausia dienos temperatūra (Klaipėdos AMS) ir laivų operacijos Klaipėdos uoste (Keleivinis ro-ro)",
+ "title": "Šį mėnesį lyg tyčia sutapo: didžiausia dienos temperatūra (Klaipėdos AMS) ir laivų operacijos Klaipėdos uoste (Keleivinis ro-ro)",
  "body": "Didžiausia dienos temperatūra (Klaipėdos AMS) ir laivų operacijos Klaipėdos uoste (Keleivinis ro-ro) kyla ir krenta kartu: r = 0,90 per 7 d. (2026-10-03 – 2026-10-09).\n\nDuomenys: „didžiausia dienos temperatūra (Klaipėdos AMS)“ (°C) ir „laivų operacijos Klaipėdos uoste (Keleivinis ro-ro)“ (operacijos).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
  "finding_key": "spurious|oru_stebejimai#station=Klaipėdos AMS#temp_max|klaipedos_uosto_operacijos#ship type=Keleivinis ro-ro#count|0",
  "finding": {
