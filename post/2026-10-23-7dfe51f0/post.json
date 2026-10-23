@@ -1,7 +1,7 @@
 {
  "created": "2026-10-23T16:33:18+00:00",
- "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba / Visa rinka)",
- "body": "Gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba / Visa rinka) kyla ir krenta kartu: r = 0,92 per 10 mėn. (2025-12 – 2026-09).\n\nDuomenys: „gamintojų kainų indeksas (Baldų gamyba / Visa rinka)“ (reikšmė) ir „gimę kūdikiai“ (kūdikiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba)",
+ "body": "Gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba / Visa rinka) kyla ir krenta kartu: r = 0,92 per 10 mėn. (2025-12 – 2026-09).\n\nDuomenys: „gamintojų kainų indeksas (Baldų gamyba)“ (reikšmė) ir „gimę kūdikiai“ (kūdikiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
  "finding_key": "spurious|lsd.gamintoju_kainos.baldų_gamyba_visa_rinka|births|9",
  "finding": {
   "strategy": "spurious",
@@ -13,7 +13,7 @@
   "n": 10,
   "p_value": 1.0,
   "score": 0.924,
-  "summary": "Gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba / Visa rinka) kyla ir krenta kartu: r = 0,92 per 10 mėn. (2025-12 – 2026-09).",
+  "summary": "Gimę kūdikiai ir prieš 9 mėn. gamintojų kainų indeksas (Baldų gamyba) kyla ir krenta kartu: r = 0,92 per 10 mėn. (2025-12 – 2026-09).",
   "hypothesis": "look-alike:gamintoju_kainos|gimusieji_per_menesi",
   "story": "",
   "start": "2025-12-01",
