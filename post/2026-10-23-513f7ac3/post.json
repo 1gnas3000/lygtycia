@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:16:41+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: ar tinkamas metas dideliems pirkiniams (50–64 m., Tinkamas metas) ir supirkimo kainų pokytis (Grikiai)",
+ "body": "Ar tinkamas metas dideliems pirkiniams (50–64 m., Tinkamas metas) ir supirkimo kainų pokytis (Grikiai) kyla ir krenta kartu: r = 0,92 per 8 mėn. (2025-10 – 2026-05).\n\nDuomenys: „ar tinkamas metas dideliems pirkiniams (50–64 m., Tinkamas metas)“ (%) ir „supirkimo kainų pokytis (Grikiai)“ (%).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|tinkamas_metas_pirkiniams#group=50–64 m., Tinkamas metas#value|supirkimo_kainos#group=Grikiai#value|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "tinkamas_metas_pirkiniams#group=50–64 m., Tinkamas metas#value",
+  "series_b": "supirkimo_kainos#group=Grikiai#value",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.916,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.916,
+  "summary": "Ar tinkamas metas dideliems pirkiniams (50–64 m., Tinkamas metas) ir supirkimo kainų pokytis (Grikiai) kyla ir krenta kartu: r = 0,92 per 8 mėn. (2025-10 – 2026-05).",
+  "hypothesis": "look-alike:supirkimo_kainos|tinkamas_metas_pirkiniams",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Ar tinkamas metas dideliems pirkiniams (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R112"
+   },
+   {
+    "title": "Žemės ūkio produktų supirkimo kainos (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S9R324"
+   }
+  ]
+ }
+}
