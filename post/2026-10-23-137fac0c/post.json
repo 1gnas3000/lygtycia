@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T17:13:03+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: užsiregistravę neleisti sau lošti (amžius 18–24) ir eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą)",
+ "body": "Užsiregistravę neleisti sau lošti (amžius 18–24) ir eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą) kyla ir krenta kartu: r = 0,94 per 8 sav. (2026-07-13 – 2026-08-31).\n\nDuomenys: „užsiregistravę neleisti sau lošti (amžius 18–24)“ (žmonės) ir „eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą)“ (pažeidimai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|losimu_apribojimai#age=18–24#banned|vilniaus_pazeidimai#offence=nesumokėta už stovėjimą#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "losimu_apribojimai#age=18–24#banned",
+  "series_b": "vilniaus_pazeidimai#offence=nesumokėta už stovėjimą#count",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.943,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.943,
+  "summary": "Užsiregistravę neleisti sau lošti (amžius 18–24) ir eismo ir stovėjimo pažeidimai Vilniuje (nesumokėta už stovėjimą) kyla ir krenta kartu: r = 0,94 per 8 sav. (2026-07-13 – 2026-08-31).",
+  "hypothesis": "look-alike:losimu_apribojimai|vilniaus_pazeidimai",
+  "story": "",
+  "start": "2026-07-13",
+  "end": "2026-08-31",
+  "sources": [
+   {
+    "title": "Asmenys, užsiregistravę neleisti sau lošti (LPT)",
+    "url": "https://get.data.gov.lt/datasets/gov/lpt/registro_objektas/Objektas"
+   },
+   {
+    "title": "Kelių eismo ir stovėjimo pažeidimai Vilniuje",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/nusizengimai/Pazeidimas"
+   }
+  ]
+ }
+}
