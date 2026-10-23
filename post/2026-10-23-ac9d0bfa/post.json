@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:33:28+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: imigrantai (Moterys, 20–24 m.) ir elektromobilių pažeidimai Vilniuje (ant šaligatvio)",
+ "body": "Imigrantai (Moterys, 20–24 m.) ir elektromobilių pažeidimai Vilniuje (ant šaligatvio) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).\n\nDuomenys: „imigrantai (Moterys, 20–24 m.)“ (žmonės) ir „elektromobilių pažeidimai Vilniuje (ant šaligatvio)“ (pažeidimai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|imigrantai_per_menesi#group=Moterys, 20–24 m.#value|vilniaus_pazeidimai#offence=ant šaligatvio#electric|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "imigrantai_per_menesi#group=Moterys, 20–24 m.#value",
+  "series_b": "vilniaus_pazeidimai#offence=ant šaligatvio#electric",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.917,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.917,
+  "summary": "Imigrantai (Moterys, 20–24 m.) ir elektromobilių pažeidimai Vilniuje (ant šaligatvio) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).",
+  "hypothesis": "look-alike:imigrantai_per_menesi|vilniaus_pazeidimai",
+  "story": "",
+  "start": "2025-09-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Imigrantai per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R846"
+   },
+   {
+    "title": "Kelių eismo ir stovėjimo pažeidimai Vilniuje",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/nusizengimai/Pazeidimas"
+   }
+  ]
+ }
+}
