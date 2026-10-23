@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:01:15+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: Vilniaus darželiuose suvalgyta (agurkai šv.) ir degalų kaina (suskystintos dujos)",
+ "body": "Vilniaus darželiuose suvalgyta (agurkai šv.) ir degalų kaina (suskystintos dujos) kyla ir krenta kartu: r = 0,93 per 16 sav. (2026-05-25 – 2026-09-07).\n\nDuomenys: „Vilniaus darželiuose suvalgyta (agurkai šv.)“ (kg) ir „degalų kaina (suskystintos dujos)“ (EUR/l).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|darzeliu_produktai#product=agurkai šv.#kg|degalu_kainos#fuel=suskystintos dujos#price|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "darzeliu_produktai#product=agurkai šv.#kg",
+  "series_b": "degalu_kainos#fuel=suskystintos dujos#price",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.935,
+  "n": 16,
+  "p_value": 1.0,
+  "score": 0.935,
+  "summary": "Vilniaus darželiuose suvalgyta (agurkai šv.) ir degalų kaina (suskystintos dujos) kyla ir krenta kartu: r = 0,93 per 16 sav. (2026-05-25 – 2026-09-07).",
+  "hypothesis": "look-alike:darzeliu_produktai|degalu_kainos",
+  "story": "",
+  "start": "2026-05-25",
+  "end": "2026-09-07",
+  "sources": [
+   {
+    "title": "Vilniaus darželiuose suvartoti produktai",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/maitinimas/Produktas"
+   },
+   {
+    "title": "Degalų kainos (Europos Komisijos naftos biuletenis)",
+    "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en"
+   }
+  ]
+ }
+}
