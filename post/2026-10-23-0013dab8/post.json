@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:29:05+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: prašymai neįgaliojo automobilio kortelei (Panevėžys) ir išlaidos vaistinių prekėms (Panevėžio m. sav. / Nereceptiniai vaistai)",
+ "body": "Prašymai neįgaliojo automobilio kortelei (Panevėžys) ir išlaidos vaistinių prekėms (Panevėžio m. sav. / Nereceptiniai vaistai) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).\n\nDuomenys: „prašymai neįgaliojo automobilio kortelei (Panevėžys)“ (prašymai) ir „išlaidos vaistinių prekėms (Panevėžio m. sav. / Nereceptiniai vaistai)“ (tūkst. EUR).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|neigaliuju_korteles#city=Panevėžys#count|lsd.islaidos_vaistinese.panevėžio_m_sav_nereceptiniai_vaistai|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "neigaliuju_korteles#city=Panevėžys#count",
+  "series_b": "lsd.islaidos_vaistinese.panevėžio_m_sav_nereceptiniai_vaistai",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.92,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.92,
+  "summary": "Prašymai neįgaliojo automobilio kortelei (Panevėžys) ir išlaidos vaistinių prekėms (Panevėžio m. sav. / Nereceptiniai vaistai) kyla ir krenta kartu: r = 0,92 per 12 mėn. (2025-09 – 2026-08).",
+  "hypothesis": "look-alike:islaidos_vaistinese|neigaliuju_korteles",
+  "story": "",
+  "start": "2025-09-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Neįgaliojo automobilio kortelių prašymai (NDNT)",
+    "url": "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
+   },
+   {
+    "title": "Išlaidos vaistinių prekėms (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R0566"
+   }
+  ]
+ }
+}
