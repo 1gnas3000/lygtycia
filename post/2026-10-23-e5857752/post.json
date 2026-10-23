@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:38:30+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: gamintojų kainų indeksas (Apdirbamoji gamyba, Lietuvos rinka) ir rokiskis.lt apsilankymai",
+ "body": "Gamintojų kainų indeksas (Apdirbamoji gamyba, Lietuvos rinka) ir rokiskis.lt apsilankymai kyla ir krenta kartu: r = 0,97 per 8 mėn. (2025-10 – 2026-05).\n\nDuomenys: „gamintojų kainų indeksas (Apdirbamoji gamyba, Lietuvos rinka)“ (reikšmė) ir „rokiskis.lt apsilankymai“ (apsilankymai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|gamintoju_kainos#group=Apdirbamoji gamyba, Lietuvos rinka#value|gov.rokiskio_svetaine|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "gamintoju_kainos#group=Apdirbamoji gamyba, Lietuvos rinka#value",
+  "series_b": "gov.rokiskio_svetaine",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.97,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.97,
+  "summary": "Gamintojų kainų indeksas (Apdirbamoji gamyba, Lietuvos rinka) ir rokiskis.lt apsilankymai kyla ir krenta kartu: r = 0,97 per 8 mėn. (2025-10 – 2026-05).",
+  "hypothesis": "look-alike:gamintoju_kainos|rokiskio_svetaine",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-05-01",
+  "sources": [
+   {
+    "title": "Gamintojų kainų indeksas (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S7R130"
+   },
+   {
+    "title": "Rokiškio rajono savivaldybės svetainės lankomumas",
+    "url": "https://get.data.gov.lt/datasets/gov/rokiskio_r_sav/interneto_svetaines_apsilankymai/Apsilankymas"
+   }
+  ]
+ }
+}
