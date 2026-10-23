@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:19:54+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: vidutinė kaina (Sūdytos silkės, kg) ir emigrantai (Vyrai / 20–24)",
+ "body": "Vidutinė kaina (Sūdytos silkės, kg) ir emigrantai (Vyrai / 20–24) kyla ir krenta kartu: r = 0,91 per 10 mėn. (2025-11 – 2026-08).\n\nDuomenys: „vidutinė kaina (Sūdytos silkės, kg)“ (EUR) ir „emigrantai (Vyrai / 20–24)“ (žmonės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|maisto_kainos#group=Sūdytos silkės, kg#value|lsd.emigrantai_per_menesi.vyrai_20_24|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "maisto_kainos#group=Sūdytos silkės, kg#value",
+  "series_b": "lsd.emigrantai_per_menesi.vyrai_20_24",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.914,
+  "n": 10,
+  "p_value": 1.0,
+  "score": 0.914,
+  "summary": "Vidutinė kaina (Sūdytos silkės, kg) ir emigrantai (Vyrai / 20–24) kyla ir krenta kartu: r = 0,91 per 10 mėn. (2025-11 – 2026-08).",
+  "hypothesis": "look-alike:emigrantai_per_menesi|maisto_kainos",
+  "story": "",
+  "start": "2025-11-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Vidutinės maisto produktų kainos (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S7R307"
+   },
+   {
+    "title": "Emigrantai per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R110"
+   }
+  ]
+ }
+}
