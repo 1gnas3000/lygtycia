@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T08:12:11+00:00",
+ "title": "2025 m. lyg tyčia sutapo: didžiausia dienos temperatūra (Šalčininkų AMS) ir vilniečių pranešimai apie problemas (Vaikų žaidimo aikštelės (įrengimas, remontas, valymas))",
+ "body": "Didžiausia dienos temperatūra (Šalčininkų AMS) ir vilniečių pranešimai apie problemas (Vaikų žaidimo aikštelės (įrengimas, remontas, valymas)) kyla ir krenta kartu: r = 0,96 per 8 sav. (2025-01-20 – 2025-03-10).\n\nDuomenys: „didžiausia dienos temperatūra (Šalčininkų AMS)“ (°C) ir „vilniečių pranešimai apie problemas (Vaikų žaidimo aikštelės (įrengimas, remontas, valymas))“ (pranešimai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|oru_stebejimai#station=Šalčininkų AMS#temp_max|vilniaus_problemos#type=Vaikų žaidimo aikštelės (įrengimas, remontas, valymas)#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "oru_stebejimai#station=Šalčininkų AMS#temp_max",
+  "series_b": "vilniaus_problemos#type=Vaikų žaidimo aikštelės (įrengimas, remontas, valymas)#count",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.958,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.958,
+  "summary": "Didžiausia dienos temperatūra (Šalčininkų AMS) ir vilniečių pranešimai apie problemas (Vaikų žaidimo aikštelės (įrengimas, remontas, valymas)) kyla ir krenta kartu: r = 0,96 per 8 sav. (2025-01-20 – 2025-03-10).",
+  "hypothesis": "look-alike:oru_stebejimai|vilniaus_problemos",
+  "story": "",
+  "start": "2025-01-20",
+  "end": "2025-03-10",
+  "sources": [
+   {
+    "title": "LHMT orų stebėjimai",
+    "url": "https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas"
+   },
+   {
+    "title": "Vilniečių pranešimai apie problemas",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/registruotos_problemos/Problema"
+   }
+  ]
+ }
+}

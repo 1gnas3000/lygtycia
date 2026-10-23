@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T07:57:01+00:00",
+ "title": "2006–2013 m. lyg tyčia sutapo: valstybiniuose miškuose iškirsta mediena (Likvidinė mediena / Pagrindinio naudojimo kirtimai) ir nauji nemokumo procesai (Radviliškio r.)",
+ "body": "Valstybiniuose miškuose iškirsta mediena (Likvidinė mediena / Pagrindinio naudojimo kirtimai) ir nauji nemokumo procesai (Radviliškio r.) kyla ir krenta kartu: r = 0,93 per 8 m. (2006 – 2013).\n\nDuomenys: „valstybiniuose miškuose iškirsta mediena (Likvidinė mediena / Pagrindinio naudojimo kirtimai)“ (reikšmė) ir „nauji nemokumo procesai (Radviliškio r.)“ (procesai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|forest.wood_felled.likvidinė_mediena_pagrindinio_naudojimo_kirtimai|nemokumas_bankrotai#territory=Radviliškio r.#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "forest.wood_felled.likvidinė_mediena_pagrindinio_naudojimo_kirtimai",
+  "series_b": "nemokumas_bankrotai#territory=Radviliškio r.#count",
+  "grain": "year",
+  "lag": 0,
+  "r": 0.929,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.929,
+  "summary": "Valstybiniuose miškuose iškirsta mediena (Likvidinė mediena / Pagrindinio naudojimo kirtimai) ir nauji nemokumo procesai (Radviliškio r.) kyla ir krenta kartu: r = 0,93 per 8 m. (2006 – 2013).",
+  "hypothesis": "look-alike:iskirsta_mediena|nemokumas_bankrotai",
+  "story": "",
+  "start": "2006-01-01",
+  "end": "2013-01-01",
+  "sources": [
+   {
+    "title": "Iškirsta mediena (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S9R032"
+   },
+   {
+    "title": "Nemokumo bylos (AVNT)",
+    "url": "https://nemokumas.avnt.lt/public/case/list"
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T06:51:53+00:00",
+ "title": "2025–2026 m. lyg tyčia sutapo: įregistruotos transporto priemonės (Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai) ir vaistinėms parduotos vaistų pakuotės (Cinarizinas/Dimenhidrinatas)",
+ "body": "Įregistruotos transporto priemonės (Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai) ir vaistinėms parduotos vaistų pakuotės (Cinarizinas/Dimenhidrinatas) kyla ir krenta kartu: r = 0,90 per 12 mėn. (2025-03 – 2026-02).\n\nDuomenys: „įregistruotos transporto priemonės (Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai)“ (vnt.) ir „vaistinėms parduotos vaistų pakuotės (Cinarizinas/Dimenhidrinatas)“ (pakuotės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|naujos_transporto_priemones#group=Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai#value|vaistu_pardavimai#drug=Cinarizinas/Dimenhidrinatas#packages|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "naujos_transporto_priemones#group=Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai#value",
+  "series_b": "vaistu_pardavimai#drug=Cinarizinas/Dimenhidrinatas#packages",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.903,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.903,
+  "summary": "Įregistruotos transporto priemonės (Elektra, Pirmą kartą šalyje įregistruotos kelių transporto priemonės, Mopedai) ir vaistinėms parduotos vaistų pakuotės (Cinarizinas/Dimenhidrinatas) kyla ir krenta kartu: r = 0,90 per 12 mėn. (2025-03 – 2026-02).",
+  "hypothesis": "look-alike:naujos_transporto_priemones|vaistu_pardavimai",
+  "story": "",
+  "start": "2025-03-01",
+  "end": "2026-02-01",
+  "sources": [
+   {
+    "title": "Įregistruotos transporto priemonės (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S5R058"
+   },
+   {
+    "title": "Vaistų pakuočių pardavimai (VVKT)",
+    "url": "https://get.data.gov.lt/datasets/gov/vvkt/pakuociu_pardavimai/ParduotaPakuote"
+   }
+  ]
+ }
+}

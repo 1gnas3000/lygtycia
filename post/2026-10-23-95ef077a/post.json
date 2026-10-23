@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T07:27:38+00:00",
+ "title": "2017 m. lyg tyčia sutapo: mirusieji (Klaipėda) ir nitritų azotas – Centrinė Kuršių marių dalis",
+ "body": "Mirusieji (Klaipėda) ir nitritų azotas – Centrinė Kuršių marių dalis kyla ir krenta kartu: r = 0,90 per 8 mėn. (2017-04 – 2017-11).\n\nDuomenys: „mirusieji (Klaipėda)“ (žmonės) ir „nitritų azotas – Centrinė Kuršių marių dalis“ (reikšmė).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|deaths.local.klaipėda|baltijos_hidrochemija#parameter=nitritų azotas – Centrinė Kuršių marių dalis#level|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "deaths.local.klaipėda",
+  "series_b": "baltijos_hidrochemija#parameter=nitritų azotas – Centrinė Kuršių marių dalis#level",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.902,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.902,
+  "summary": "Mirusieji (Klaipėda) ir nitritų azotas – Centrinė Kuršių marių dalis kyla ir krenta kartu: r = 0,90 per 8 mėn. (2017-04 – 2017-11).",
+  "hypothesis": "look-alike:baltijos_hidrochemija|mirusieji_per_menesi",
+  "story": "",
+  "start": "2017-04-01",
+  "end": "2017-11-01",
+  "sources": [
+   {
+    "title": "Mirusieji per mėnesį (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S3R844"
+   },
+   {
+    "title": "Baltijos jūros ir Kuršių marių hidrochemija (AAA)",
+    "url": "https://get.data.gov.lt/datasets/gov/aaa/juros_mariu_monitoringas/Hidrochemija"
+   }
+  ]
+ }
+}
