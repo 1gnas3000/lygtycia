@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T18:56:54+00:00",
+ "title": "Pastaraisiais metais lyg tyčia sutapo: parduota kiaušinių ir orlaivių skrydžiai oro uostuose (Nereguliarūs skrydžiai / Vietinis susisiekimas)",
+ "body": "Parduota kiaušinių ir orlaivių skrydžiai oro uostuose (Nereguliarūs skrydžiai / Vietinis susisiekimas) kyla ir krenta kartu: r = 0,96 per 8 m. (2018 – 2025).\n\nDuomenys: „parduota kiaušinių“ (mln. vnt.) ir „orlaivių skrydžiai oro uostuose (Nereguliarūs skrydžiai / Vietinis susisiekimas)“ (skrydžiai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|lsd.parduoti_kiausiniai|lsd.oro_uostu_skrydziai.nereguliarūs_skrydžiai_vietinis_susisiekimas|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "lsd.parduoti_kiausiniai",
+  "series_b": "lsd.oro_uostu_skrydziai.nereguliarūs_skrydžiai_vietinis_susisiekimas",
+  "grain": "year",
+  "lag": 0,
+  "r": 0.961,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.961,
+  "summary": "Parduota kiaušinių ir orlaivių skrydžiai oro uostuose (Nereguliarūs skrydžiai / Vietinis susisiekimas) kyla ir krenta kartu: r = 0,96 per 8 m. (2018 – 2025).",
+  "hypothesis": "look-alike:oro_uostu_skrydziai|parduoti_kiausiniai",
+  "story": "",
+  "start": "2018-01-01",
+  "end": "2025-01-01",
+  "sources": [
+   {
+    "title": "Parduoti kiaušiniai (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S9R145"
+   },
+   {
+    "title": "Orlaivių skrydžiai oro uostuose (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S5R055"
+   }
+  ]
+ }
+}
