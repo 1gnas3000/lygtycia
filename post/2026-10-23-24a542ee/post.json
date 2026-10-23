@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:52:39+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: Vilniaus darželiuose suvalgyta (pomidorų padažas) ir prašymai neįgaliojo automobilio kortelei (Vilnius)",
+ "body": "Vilniaus darželiuose suvalgyta (pomidorų padažas) ir prašymai neįgaliojo automobilio kortelei (Vilnius) kyla ir krenta kartu: r = 0,95 per 12 mėn. (2025-10 – 2026-09).\n\nDuomenys: „Vilniaus darželiuose suvalgyta (pomidorų padažas)“ (kg) ir „prašymai neįgaliojo automobilio kortelei (Vilnius)“ (prašymai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|darzeliu_produktai#product=pomidorų padažas#kg|neigaliuju_korteles#city=Vilnius#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "darzeliu_produktai#product=pomidorų padažas#kg",
+  "series_b": "neigaliuju_korteles#city=Vilnius#count",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.954,
+  "n": 12,
+  "p_value": 1.0,
+  "score": 0.954,
+  "summary": "Vilniaus darželiuose suvalgyta (pomidorų padažas) ir prašymai neįgaliojo automobilio kortelei (Vilnius) kyla ir krenta kartu: r = 0,95 per 12 mėn. (2025-10 – 2026-09).",
+  "hypothesis": "look-alike:darzeliu_produktai|neigaliuju_korteles",
+  "story": "",
+  "start": "2025-10-01",
+  "end": "2026-09-01",
+  "sources": [
+   {
+    "title": "Vilniaus darželiuose suvartoti produktai",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/maitinimas/Produktas"
+   },
+   {
+    "title": "Neįgaliojo automobilio kortelių prašymai (NDNT)",
+    "url": "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
+   }
+  ]
+ }
+}
