@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:12:06+00:00",
+ "title": "Šį mėnesį lyg tyčia sutapo: laivų operacijos Klaipėdos uoste ir Vikipedijos straipsnio peržiūros (Užgavėnės)",
+ "body": "Laivų operacijos Klaipėdos uoste ir Vikipedijos straipsnio peržiūros (Užgavėnės) kyla ir krenta kartu: r = 0,93 per 7 d. (2026-10-13 – 2026-10-19).\n\nDuomenys: „laivų operacijos Klaipėdos uoste“ (operacijos) ir „Vikipedijos straipsnio peržiūros (Užgavėnės)“ (peržiūros).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|klaipedos_uosto_operacijos#all=all#count|wikipedia_perziuros#article=Užgavėnės#views|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "klaipedos_uosto_operacijos#all=all#count",
+  "series_b": "wikipedia_perziuros#article=Užgavėnės#views",
+  "grain": "day",
+  "lag": 0,
+  "r": 0.926,
+  "n": 7,
+  "p_value": 1.0,
+  "score": 0.926,
+  "summary": "Laivų operacijos Klaipėdos uoste ir Vikipedijos straipsnio peržiūros (Užgavėnės) kyla ir krenta kartu: r = 0,93 per 7 d. (2026-10-13 – 2026-10-19).",
+  "hypothesis": "look-alike:klaipedos_uosto_operacijos|wikipedia_perziuros",
+  "story": "",
+  "start": "2026-10-13",
+  "end": "2026-10-19",
+  "sources": [
+   {
+    "title": "Klaipėdos uosto laivų operacijos",
+    "url": "https://get.data.gov.lt/datasets/gov/kvjud/kroviniai/Operacija"
+   },
+   {
+    "title": "Lietuviškos Vikipedijos straipsnių peržiūros (Wikimedia)",
+    "url": "https://pageviews.wmcloud.org/?project=lt.wikipedia.org"
+   }
+  ]
+ }
+}
