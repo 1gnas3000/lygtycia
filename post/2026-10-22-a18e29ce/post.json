@@ -1,7 +1,7 @@
 {
  "created": "2026-10-22T16:49:40+00:00",
- "title": "Šią savaitę lyg tyčia sutapo: santykinė oro drėgmė (Druskininkų AMS) ir elektros kaina biržoje (EE zona)",
- "body": "Santykinė oro drėgmė (Druskininkų AMS) ir elektros kaina biržoje (EE zona) kyla ir krenta kartu: r = 0,90 per 7 d. (2026-10-14 – 2026-10-20).\n\nDuomenys: „santykinė oro drėgmė (Druskininkų AMS)“ (%) ir „elektros kaina biržoje (EE zona)“ (EUR/MWh).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "title": "Šią savaitę lyg tyčia sutapo: santykinė oro drėgmė (Druskininkų AMS) ir elektros kaina biržoje (Estijos zona)",
+ "body": "Santykinė oro drėgmė (Druskininkų AMS) ir elektros kaina biržoje (EE zona) kyla ir krenta kartu: r = 0,90 per 7 d. (2026-10-14 – 2026-10-20).\n\nDuomenys: „santykinė oro drėgmė (Druskininkų AMS)“ (%) ir „elektros kaina biržoje (Estijos zona)“ (EUR/MWh).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
  "finding_key": "spurious|oru_stebejimai#station=Druskininkų AMS#humidity|elektros_kainos#zone=EE#price|0",
  "finding": {
   "strategy": "spurious",
