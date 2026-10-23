@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:48:47+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: supirkimo kainų pokytis (Gyvuliai ir paukščiai) ir keleivių kelionės Marijampolės autobusais (Vienkartinis bilietas)",
+ "body": "Supirkimo kainų pokytis (Gyvuliai ir paukščiai) ir keleivių kelionės Marijampolės autobusais (Vienkartinis bilietas) kyla ir krenta kartu: r = 0,94 per 8 mėn. (2026-01 – 2026-08).\n\nDuomenys: „supirkimo kainų pokytis (Gyvuliai ir paukščiai)“ (%) ir „keleivių kelionės Marijampolės autobusais (Vienkartinis bilietas)“ (kelionės).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|supirkimo_kainos#group=Gyvuliai ir paukščiai#value|marijampoles_keleiviai#ticket=Vienkartinis bilietas#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "supirkimo_kainos#group=Gyvuliai ir paukščiai#value",
+  "series_b": "marijampoles_keleiviai#ticket=Vienkartinis bilietas#count",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.944,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.944,
+  "summary": "Supirkimo kainų pokytis (Gyvuliai ir paukščiai) ir keleivių kelionės Marijampolės autobusais (Vienkartinis bilietas) kyla ir krenta kartu: r = 0,94 per 8 mėn. (2026-01 – 2026-08).",
+  "hypothesis": "look-alike:marijampoles_keleiviai|supirkimo_kainos",
+  "story": "",
+  "start": "2026-01-01",
+  "end": "2026-08-01",
+  "sources": [
+   {
+    "title": "Žemės ūkio produktų supirkimo kainos (Valstybės duomenų agentūra)",
+    "url": "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?indicator=S9R324"
+   },
+   {
+    "title": "Marijampolės autobusų keleivių srautas",
+    "url": "https://get.data.gov.lt/datasets/gov/map/keleiviu_srautas/KeleiviuSrautas"
+   }
+  ]
+ }
+}
