@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:08:10+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: naujos laisvos darbo vietos (individualios priežiūros darbuotojas) ir prašymai neįgaliojo automobilio kortelei (Šiauliai)",
+ "body": "Naujos laisvos darbo vietos (individualios priežiūros darbuotojas) ir prašymai neįgaliojo automobilio kortelei (Šiauliai) kyla ir krenta kartu: r = 0,93 per 10 sav. (2026-06-29 – 2026-08-31).\n\nDuomenys: „naujos laisvos darbo vietos (individualios priežiūros darbuotojas)“ (darbo vietos) ir „prašymai neįgaliojo automobilio kortelei (Šiauliai)“ (prašymai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|laisvos_darbo_vietos#job=individualios priežiūros darbuotojas#count|neigaliuju_korteles#city=Šiauliai#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "laisvos_darbo_vietos#job=individualios priežiūros darbuotojas#count",
+  "series_b": "neigaliuju_korteles#city=Šiauliai#count",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.927,
+  "n": 10,
+  "p_value": 1.0,
+  "score": 0.927,
+  "summary": "Naujos laisvos darbo vietos (individualios priežiūros darbuotojas) ir prašymai neįgaliojo automobilio kortelei (Šiauliai) kyla ir krenta kartu: r = 0,93 per 10 sav. (2026-06-29 – 2026-08-31).",
+  "hypothesis": "look-alike:laisvos_darbo_vietos|neigaliuju_korteles",
+  "story": "",
+  "start": "2026-06-29",
+  "end": "2026-08-31",
+  "sources": [
+   {
+    "title": "Laisvos darbo vietos (Užimtumo tarnyba)",
+    "url": "https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta"
+   },
+   {
+    "title": "Neįgaliojo automobilio kortelių prašymai (NDNT)",
+    "url": "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
+   }
+  ]
+ }
+}
