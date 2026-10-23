@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T16:56:02+00:00",
+ "title": "Šį mėnesį lyg tyčia sutapo: paskiepyti žmonės ir oro temperatūra (Elektrėnų AMS)",
+ "body": "Paskiepyti žmonės ir oro temperatūra (Elektrėnų AMS) kyla ir krenta kartu: r = 0,92 per 7 d. (2026-10-12 – 2026-10-18).\n\nDuomenys: „paskiepyti žmonės“ (žmonės) ir „oro temperatūra (Elektrėnų AMS)“ (°C).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|gov.skiepai_per_diena|oru_stebejimai#station=Elektrėnų AMS#temp|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "gov.skiepai_per_diena",
+  "series_b": "oru_stebejimai#station=Elektrėnų AMS#temp",
+  "grain": "day",
+  "lag": 0,
+  "r": 0.922,
+  "n": 7,
+  "p_value": 1.0,
+  "score": 0.922,
+  "summary": "Paskiepyti žmonės ir oro temperatūra (Elektrėnų AMS) kyla ir krenta kartu: r = 0,92 per 7 d. (2026-10-12 – 2026-10-18).",
+  "hypothesis": "look-alike:oru_stebejimai|skiepai_per_diena",
+  "story": "",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "sources": [
+   {
+    "title": "Paskiepyti žmonės per dieną",
+    "url": "https://get.data.gov.lt/datasets/gov/lsd/sveikata/skiepai/SkiepytiPadieniui"
+   },
+   {
+    "title": "LHMT orų stebėjimai",
+    "url": "https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas"
+   }
+  ]
+ }
+}
