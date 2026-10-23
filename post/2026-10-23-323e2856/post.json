@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T19:28:09+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: vaistų pardavimų dalis (antidepresantai) ir pranešimai apie pavojingą maistą (Svetimkūniai)",
+ "body": "Vaistų pardavimų dalis (antidepresantai) ir pranešimai apie pavojingą maistą (Svetimkūniai) kyla ir krenta kartu: r = 0,94 per 8 mėn. (2025-12 – 2026-07).\n\nDuomenys: „vaistų pardavimų dalis (antidepresantai)“ (%) ir „pranešimai apie pavojingą maistą (Svetimkūniai)“ (pranešimai).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|medicine.share.antidepressants|maisto_pavojai#issue=Svetimkūniai#count|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "medicine.share.antidepressants",
+  "series_b": "maisto_pavojai#issue=Svetimkūniai#count",
+  "grain": "month",
+  "lag": 0,
+  "r": 0.939,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.939,
+  "summary": "Vaistų pardavimų dalis (antidepresantai) ir pranešimai apie pavojingą maistą (Svetimkūniai) kyla ir krenta kartu: r = 0,94 per 8 mėn. (2025-12 – 2026-07).",
+  "hypothesis": "look-alike:maisto_pavojai|vaistu_pardavimai",
+  "story": "",
+  "start": "2025-12-01",
+  "end": "2026-07-01",
+  "sources": [
+   {
+    "title": "Vaistų pakuočių pardavimai (VVKT)",
+    "url": "https://get.data.gov.lt/datasets/gov/vvkt/pakuociu_pardavimai/ParduotaPakuote"
+   },
+   {
+    "title": "Pranešimai apie pavojingą maistą (VMVT)",
+    "url": "https://get.data.gov.lt/datasets/gov/vmvt/pranesimai/Pranesimas"
+   }
+  ]
+ }
+}
