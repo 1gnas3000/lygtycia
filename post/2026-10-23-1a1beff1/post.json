@@ -1,0 +1,32 @@
+{
+ "created": "2026-10-23T20:20:43+00:00",
+ "title": "Pastaraisiais mėnesiais lyg tyčia sutapo: naujos laisvos darbo vietos (siuvėjas) ir Vilniaus darželiuose suvalgyta (ekologiškas jogurtas)",
+ "body": "Naujos laisvos darbo vietos (siuvėjas) ir Vilniaus darželiuose suvalgyta (ekologiškas jogurtas) kyla ir krenta kartu: r = 0,95 per 8 sav. (2026-07-27 – 2026-09-14).\n\nDuomenys: „naujos laisvos darbo vietos (siuvėjas)“ (darbo vietos) ir „Vilniaus darželiuose suvalgyta (ekologiškas jogurtas)“ (kg).\n\nTyler Vigen'o „Spurious Correlations“ dvasia: iš tūkstančių atsitiktinių Lietuvos atvirų duomenų porų šios dvi nupiešė tą pačią kreivę.",
+ "finding_key": "spurious|laisvos_darbo_vietos#job=siuvėjas#count|darzeliu_produktai#product=ekologiškas jogurtas#kg|0",
+ "finding": {
+  "strategy": "spurious",
+  "series_a": "laisvos_darbo_vietos#job=siuvėjas#count",
+  "series_b": "darzeliu_produktai#product=ekologiškas jogurtas#kg",
+  "grain": "week",
+  "lag": 0,
+  "r": 0.947,
+  "n": 8,
+  "p_value": 1.0,
+  "score": 0.947,
+  "summary": "Naujos laisvos darbo vietos (siuvėjas) ir Vilniaus darželiuose suvalgyta (ekologiškas jogurtas) kyla ir krenta kartu: r = 0,95 per 8 sav. (2026-07-27 – 2026-09-14).",
+  "hypothesis": "look-alike:darzeliu_produktai|laisvos_darbo_vietos",
+  "story": "",
+  "start": "2026-07-27",
+  "end": "2026-09-14",
+  "sources": [
+   {
+    "title": "Laisvos darbo vietos (Užimtumo tarnyba)",
+    "url": "https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta"
+   },
+   {
+    "title": "Vilniaus darželiuose suvartoti produktai",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/maitinimas/Produktas"
+   }
+  ]
+ }
+}
