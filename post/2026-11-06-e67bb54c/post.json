@@ -1,0 +1,33 @@
+{
+ "created": "2026-11-06T23:11:30+00:00",
+ "title": "Šiltesnis pavasaris – anksčiau pražydusi alyva",
+ "body": "Kai 45 dienų iki įprastos datos vidutinė temperatūra būna 1 °C aukštesnė, paprastoji alyva pražysta maždaug 4,4 dienos anksčiau (r = -0,86; 46 stebėjimai 12 vietų, kiekviena lyginama su savo vidurkiu).\n\nKodėl tikrinome: augalai laiką skaičiuoja šiluma, todėl po šilto pavasario tas pats augalas toje pačioje stotyje turėtų pražysti anksčiau nei įprastai.\n\nRasta automatiškai lyginant du viešus duomenų rinkinius (LHMT fenologijos ir orų stebėjimai). Koreliacija nėra priežastis: abu rodikliai gali priklausyti nuo trečio veiksnio.",
+ "finding_key": "panel|panel.phenology_spring|Paprastoji alyva – žydėjimo pradžia|0",
+ "finding": {
+  "strategy": "panel",
+  "series_a": "panel.phenology_spring",
+  "series_b": "Paprastoji alyva – žydėjimo pradžia",
+  "grain": "event",
+  "lag": 0,
+  "r": -0.855,
+  "n": 46,
+  "p_value": 2.2930305102580223e-10,
+  "score": 12.364,
+  "summary": "Paprastoji alyva – žydėjimo pradžia (metų diena): -4,36 d., kai rodiklis „vidutinė temperatūra per 45 dienas iki įprastos datos“ didesnis 1 °C (r = -0,86; 46 stebėjimai 12 vietose, kiekviena lyginama su savo vidurkiu).",
+  "hypothesis": "phenology_spring",
+  "story": "Augalai skaičiuoja laiką šiluma: po šilto pavasario tas pats augalas toje pačioje stotyje turėtų pražysti ar sulapoti anksčiau nei įprastai.",
+  "start": "",
+  "end": "",
+  "sources": [
+   {
+    "title": "Augalų fenologija (LHMT)",
+    "url": "https://get.data.gov.lt/datasets/gov/lhmt/fenologija/AugaluFenologija"
+   },
+   {
+    "title": "LHMT orų stebėjimai",
+    "url": "https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas"
+   }
+  ],
+  "review": "A plausible, real and intuitive link (warmer spring, earlier lilac bloom) with a strong panel correlation (r=-0.86, 46 observations, 12 stations, each compared to its own mean); the original wording was unclear, so it is rewritten."
+ }
+}
