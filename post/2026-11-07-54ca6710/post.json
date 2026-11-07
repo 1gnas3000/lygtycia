@@ -1,0 +1,33 @@
+{
+ "created": "2026-11-07T23:02:14+00:00",
+ "title": "Vėjuotą dieną elektra pigesnė",
+ "body": "Kai vėjas neįprastai stiprus, elektra Lietuvos biržos zonoje to paties laikotarpio dažniausiai būna pigesnė nei įprastai (r = -0,46, 307 dienos, be sezoniškumo ir tendencijos).\n\nKodėl tikrinome: vėjo jėgainės vėjuotomis dienomis pagamina daugiau elektros. Ar tada ji pigesnė? Panašu, kad taip.\n\nDuomenys: vidutinis vėjo greitis (m/s) ir elektros kaina biržoje, Lietuvos zona (EUR/MWh).\n\nRasta automatiškai lyginant du viešus duomenų rinkinius. Koreliacija nėra priežastis: abu rodikliai gali priklausyti nuo trečio veiksnio, o lyginant daug porų dalis sutapimų būna atsitiktiniai.",
+ "finding_key": "lead_lag|weather.wind|electricity.price.lt|0",
+ "finding": {
+  "strategy": "lead_lag",
+  "series_a": "weather.wind",
+  "series_b": "electricity.price.lt",
+  "grain": "day",
+  "lag": 0,
+  "r": -0.459,
+  "n": 307,
+  "p_value": 1.0903603178024607e-17,
+  "score": 6.884,
+  "summary": "Kai rodiklis „vidutinis vėjo greitis“ neįprastai aukštas, rodiklis „elektros kaina biržoje (Lietuvos zona)“ tuo pačiu laikotarpiu dažniausiai būna žemesnis nei įprastai (r = -0,46, 307 d., be sezoniškumo ir tendencijos).",
+  "hypothesis": "windy_cheap_power",
+  "story": "Vėjo jėgainės vėjuotomis dienomis pagamina daugiau: ar tada elektra pigesnė?",
+  "start": "",
+  "end": "",
+  "sources": [
+   {
+    "title": "LHMT orų stebėjimai",
+    "url": "https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas"
+   },
+   {
+    "title": "Elektros kainos biržoje (Elering)",
+    "url": "https://dashboard.elering.ee/en/nps/price"
+   }
+  ],
+  "review": "A plausible, explainable real link (windy days mean more wind power and lower Baltic power prices), deseasonalised and detrended with n=307 and a strong r, and honestly framed as correlation rather than causation."
+ }
+}
