@@ -1,0 +1,33 @@
+{
+ "created": "2026-11-11T22:58:05+00:00",
+ "title": "Kai vilniečiai daugiau skundžiasi, daugiau ir pažeidimų",
+ "body": "Dienomis, kai vilniečiai Vilniaus savivaldybei pateikia neįprastai daug pranešimų apie problemas, tą pačią dieną dažniausiai užfiksuojama ir daugiau eismo bei stovėjimo pažeidimų (r = 0,48, 546 dienos, be sezoniškumo ir tendencijos).\n\nDuomenys: „Vilniečių pranešimai apie problemas“ ir „Kelių eismo ir stovėjimo pažeidimai Vilniuje“.\n\nRasta automatiškai lyginant du viešus duomenų rinkinius. Koreliacija nėra priežastis: abu rodikliai gali priklausyti nuo trečio veiksnio, o lyginant daug porų dalis sutapimų būna atsitiktiniai.",
+ "finding_key": "lead_lag|vilnius.problems_total|gov.vilniaus_pazeidimai|0",
+ "finding": {
+  "strategy": "lead_lag",
+  "series_a": "vilnius.problems_total",
+  "series_b": "gov.vilniaus_pazeidimai",
+  "grain": "day",
+  "lag": 0,
+  "r": 0.483,
+  "n": 546,
+  "p_value": 8.18863673263207e-34,
+  "score": 4.833,
+  "summary": "Kai rodiklis „vilniečių pranešimai apie problemas“ neįprastai aukštas, rodiklis „eismo ir stovėjimo pažeidimai Vilniuje“ tuo pačiu laikotarpiu dažniausiai būna aukštesnis nei įprastai (r = 0,48, 546 d., be sezoniškumo ir tendencijos).",
+  "hypothesis": "",
+  "story": "",
+  "start": "",
+  "end": "",
+  "sources": [
+   {
+    "title": "Vilniečių pranešimai apie problemas",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/registruotos_problemos/Problema"
+   },
+   {
+    "title": "Kelių eismo ir stovėjimo pažeidimai Vilniuje",
+    "url": "https://get.data.gov.lt/datasets/gov/vilniaus_m_sav/nusizengimai/Pazeidimas"
+   }
+  ],
+  "review": "Clear, honestly framed daily link between two Vilnius municipal datasets (r=0.48, n=546, detrended and deseasonalised); the overlap is plausible but not a trivial same-quantity pair."
+ }
+}
